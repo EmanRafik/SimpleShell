@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1570820602 source:/home/eman/Documents/OS/SimpleShell/main.cpp
+	<iostream>
+	<Shell.h>
+
+1570797888 /home/eman/Documents/OS/SimpleShell/include/Parser.h
+	<string>
+	<vector>
+
+1570808168 source:/home/eman/Documents/OS/SimpleShell/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+	<string>
+	<bits/stdc++.h>
+	<stdlib.h>
+
+1570872033 source:/home/eman/Documents/OS/SimpleShell/src/Shell.cpp
+	"Shell.h"
+	<iostream>
+	<string>
+	<Parser.h>
+	<unistd.h>
+	<sys/types.h>
+	<sys/wait.h>
+	<vector>
+	<bits/stdc++.h>
+	<signal.h>
+	<Logger.h>
+	<unistd.h>
+
+1570868233 /home/eman/Documents/OS/SimpleShell/include/Shell.h
+	<string>
+	<vector>
+	<Logger.h>
+
+1570813841 source:/home/eman/Documents/OS/SimpleShell/src/Logger.cpp
+	"Logger.h"
+	"fstream"
+	<iostream>
+	<string>
+	<sstream>
+
+1570811408 /home/eman/Documents/OS/SimpleShell/include/Logger.h
+	<string>
+	<fstream>
+
